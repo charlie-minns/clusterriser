@@ -28,7 +28,7 @@ A lot of code didn't make it into my final thesis, so I have stored the files se
 
 The test, prims, and clustering files contain an approach that used Prim's method of creating a minimum spanning tree to create a clustering result.
 
-AlphaMetric is a notebook that looks into pruning the minimum spanning tree to create a clustering result. In this, I look at the intra-distances vs inter-distances of clusters produced as a success metric for clustering, producing different results by altering the weighting of spatial information in the dataset. 
+AlphaMetric is a notebook that looks into pruning the minimum spanning tree to create a clustering result. In this, I look at the intra-cluster vs inter-cluster distances produced as a success metric for clustering, producing different results by altering the weighting of spatial information in the dataset. 
 
 The hdbscan-hyperspectral notebook is an inital test at applying HDBSCAN to hyperspectral images. 
 
